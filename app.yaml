@@ -5,10 +5,10 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: /.*
-  script: helloworld.application
 - url: /images
   static_dir: images
+- url: /
+  script: helloworld.application
 
 libraries:
 - name: webapp2
