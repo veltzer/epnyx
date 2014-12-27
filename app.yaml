@@ -7,7 +7,7 @@ threadsafe: true
 handlers:
 - url: /images
   static_dir: images
-- url: favicon.ico
+- url: /favicon.ico
   static_files: images/favicon.ico
 - url: /
   script: helloworld.application
