@@ -7,6 +7,8 @@ threadsafe: true
 handlers:
 - url: /.*
   script: helloworld.application
+- url: /images
+  static_dir: images
 
 libraries:
 - name: webapp2
