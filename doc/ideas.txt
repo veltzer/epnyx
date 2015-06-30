@@ -1,0 +1,5 @@
+- a system that allows a group of people to join a group without revealing the group
+	members until something (common decision, date etc).
+- A system that allows people to converse without any surveilance.
+- A system which gives out private keys to people and allows them to gather points that
+	identify the account as theirs (for real).
