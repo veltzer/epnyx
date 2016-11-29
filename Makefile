@@ -4,7 +4,7 @@ all: tools.stamp
 
 tools.stamp:
 	$(info doing [$@])
-	@templar_cmd install_deps
+	@templar install_deps
 	@make_helper touch-mkdir $@
 
 .PHONY: clean
